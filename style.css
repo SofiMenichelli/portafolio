@@ -223,3 +223,7 @@ textarea {
   }
 }
 /* Fin Form */
+
+.container{
+    max-width: 100vw;
+}
