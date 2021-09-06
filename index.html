@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menichelli SMV - Portafolio</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="img/SM.jpg" width="30" height="30" class="d-inline-block align-top"
+                alt="Logo">
+            Menichelli, Sofia MV
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-link" href="#sobreMi">Sobre Mi</a>
+                <a class="nav-link" href="#portafolio">Portafolio</a>
+                <a class="nav-link" href="#contactame">Contactame</a>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid">
+        <img src="img/sofiCV.jpg" class="img-fluid rounded-circle mx-auto d-block" alt="Sofia Menichelli" width="300" height="300" />
+        <div class="container">
+            <h1 class="display-4 text-center">Sofia Maria Victoria Menichelli</h1>
+            <p class="lead text-center">Desarrolladora Web Full Stack Java</p>
+        </div>
+    </div>
+    <div id="portafolio" class="container">
+        <!-- col-xs-12 col-lg-4 col-sm-6 -->
+        <div class="row row-cols-lg-2 row-cols-sm-1 row-cols-1 row-cols-md-2 justify-content-around">
+            <div class="col p-3">
+                <a href=""><img src="img/imagen-5.jpg" class="img-fluid border border-info rounded" alt=""></a>
+            </div>
+            <div class="col p-3">
+                <a href=""><img src="img/imagen-4.jpg" class="img-fluid border border-info rounded" alt=""></a>
+            </div>
+            <div class="col p-3">
+                <a href=""><img src="img/imagen-3.jpg" class="img-fluid border border-info rounded" alt=""></a>
+            </div>
+            <div class="col p-3">
+                <a href=""><img src="img/imagen-3.jpg" class="img-fluid border border-info rounded" alt=""></a>
+            </div>
+            <div class="col p-3">
+                <a href=""><img src="img/imagen-1.jpg" class="img-fluid border border-info rounded" alt=""></a>
+            </div>
+
+        </div>
+    </div>
+    <div id="sobreMi" class="container mt-5">
+        <div class="sobreMi  p-3">
+            <h2 class="text-center">Acerca de Mi</h2>
+            <hr>
+            <p class="lead text-center text-break">Soy Sofia Menichelli, Desarrolladora Web Full Stack Java, recientemente termine un Bootcamp, dictado por MindHub LA, el
+            cual implementa la metodología "Learn by doing", en el cual estamos trabajando de 9am a 18pm con daily's, user story's, retro's, sprint's y
+            mas, en ese tiempo realice un 1er proyecto individual, simulando un Homebanking, un 2do proyecto grupal simulando la web
+            de LollaPalooza" y tengo un 3er. proyecto, un juego de Batalla Naval, que estoy realizando individualmente.
+            
+            Me desempeño muy bien trabajando en equipo, siempre termino mis objetivos antes de tiempo y me gusta destacarme en lo
+            que hago. Soy responsable, proactiva, detallista, con capacidad para adaptarme al cambio y de rápido aprendizaje.
+            
+            Deseo trabajar en una empresa en la que tenga posibilidades de crecimiento y aprendizaje.</p>
+        </div>
+    </div>
+    <div id="container">
+        <h1>&bull; Contactame &bull;</h1>
+        <div class="underline">
+        </div>
+        <form action="https://submit-form.com/form_v1_0GXL9Ijk0gLpXUQAXmeK7HyU" method="post" id="contact contact_form">
+            <input type="hidden" name="_feedback.language" value="es" />
+            <input type="hidden" name="_redirect" value="https://your-website.com/thanks" />
+            <input type="hidden" name="_feedback.success.title" value="Gracias por contactarme, te respondere a la brevedad" />
+            <div class="name">
+                <label for="name"></label>
+                <input type="text" placeholder="Mi nombre es" name="name" id="name_input" required>
+            </div>
+            <div class="email">
+                <label for="email"></label>
+                <input type="email" placeholder="Mi e-mail es" name="email" id="email_input" required>
+            </div>
+            <div class="telephone">
+                <label for="name"></label>
+                <input type="text" placeholder="Mi telefono es" name="telephone" id="telephone_input" required>
+            </div>
+            <div class="subject">
+                <label for="subject"></label>
+                <select placeholder="Subject line" name="subject" id="subject_input" required>
+                    <option disabled hidden selected>Línea de asunto</option>
+                    <option>Me gustaria empezar un proyecto con vos</option>
+                    <option>Me gustaria hacerte una pregunta</option>
+                    <option>Me gustaria hacerte una propuesta</option>
+                </select>
+            </div>
+            <div class="message">
+                <label for="message"></label>
+                <textarea name="message" placeholder="Me gustaría charlar sobre" id="message_input" cols="30" rows="5"
+                    required></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Enviar Mensaje" id="form_button" />
+            </div>
+        </form><!-- // End form -->
+    </div><!-- // End #container -->
+    <footer>
+
+    </footer>
+    
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+        crossorigin="anonymous"></script>
+</body>
+</html>
